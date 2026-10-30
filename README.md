@@ -58,3 +58,5 @@ A graduate group project compared a simple baseline with **log-linear regression
 
 ## Additional hands-on project
 - [Revenue Model Evaluation — Python](projects/revenue-model-evaluation/README.md): MAE, RMSE, and median error comparison using fictional predictions.
+
+- [Model Evaluation Checklist](projects/model-evaluation-checklist/README.md): a practical methodology reference for regression and KNN.
