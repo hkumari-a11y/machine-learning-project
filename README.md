@@ -55,3 +55,6 @@ A graduate group project compared a simple baseline with **log-linear regression
 - **Finding:** the baseline had the lowest overall MAE; KNN had the lowest median absolute error. These metrics reflect the reviewed test split, not guaranteed future performance.
 
 **Attribution and limitations:** This summarizes existing collaborative project results and subsequent review, rather than claiming independent model development. No underlying group dataset or restricted workbook is published here. The source review also notes that test R² was unavailable and reported p-values were approximations from robust t statistics.
+
+## Additional hands-on project
+- [Revenue Model Evaluation — Python](projects/revenue-model-evaluation/README.md): MAE, RMSE, and median error comparison using fictional predictions.
