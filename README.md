@@ -45,3 +45,13 @@ This repository represents graduate-level practice with predictive analytics. Th
 - Name the dataset, target, and algorithms used in each included notebook.
 - Add verified evaluation metrics and limitations.
 - Document environment and steps needed to reproduce results.
+
+## RAFT school revenue modeling — reviewed group results
+A graduate group project compared a simple baseline with **log-linear regression (OLS)** and **k-nearest neighbors (KNN)** to predict school revenue. A separate review workbook summarized the group's existing analysis; **no new model was fitted as part of that review**.
+
+- **Evaluation design:** 157 FY23 training schools and 66 FY25 test schools.
+- **Test mean absolute error (MAE):** baseline **$299.23**, OLS **$316.13**, KNN **$307.05**.
+- **Test median absolute error:** baseline **$88.15**, OLS **$108.09**, KNN **$83.48**.
+- **Finding:** the baseline had the lowest overall MAE; KNN had the lowest median absolute error. These metrics reflect the reviewed test split, not guaranteed future performance.
+
+**Attribution and limitations:** This summarizes existing collaborative project results and subsequent review, rather than claiming independent model development. No underlying group dataset or restricted workbook is published here. The source review also notes that test R² was unavailable and reported p-values were approximations from robust t statistics.
